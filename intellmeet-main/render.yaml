@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: intellmeet
+    runtime: node
+    plan: free
+    buildCommand: "cd client && npm ci && npm run build && cd ../server && npm ci"
+    startCommand: "npm --prefix server start"
