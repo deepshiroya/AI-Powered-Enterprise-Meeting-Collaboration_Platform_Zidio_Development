@@ -41,40 +41,6 @@ An AI-powered enterprise meeting and collaboration platform built to streamline 
 | **Asset Storage**    | Cloudinary API             | Secure cloud storage for meeting recordings, profile pictures, and uploaded files.                     |
 
 
-IntellMeet/
-├── client/                          # Frontend Application (React + Vite)
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── auth/                # LoginForm.jsx, RegisterForm.jsx
-│   │   │   ├── dashboard/           # MeetingHistoryTable.jsx, Workspace/
-│   │   │   └── meeting/             # VideoPlayer.jsx, ParticipantList.jsx, MeetingControls.jsx
-│   │   ├── hooks/                   # useAuth.js, useSocket.js
-│   │   ├── pages/
-│   │   │   ├── Auth/                # Login & Register views
-│   │   │   ├── Dashboard/           # Main meeting history dashboard
-│   │   │   ├── MeetingDetails/      # History summaries & recording playback details
-│   │   │   └── MeetingRoom/         # Real-time room, CollaborationDashboard, MeetingAI
-│   │   ├── main.jsx                 # React root mount entry
-│   │   └── index.css                # Premium global CSS variables & glassmorphic system
-│   ├── package.json
-│   └── vite.config.js
-│
-├── server/                          # Backend API & Socket Server
-│   ├── src/
-│   │   ├── config/                  # db.js, socket.js (Socket.io room events)
-│   │   ├── controllers/             # authController.js, meetingController.js
-│   │   ├── models/                  # User.js, Meeting.js, Chat.js, Task.js
-│   │   ├── routes/                  # authRoutes.js, meetingRoutes.js
-│   │   ├── services/                # chatService.js, noteService.js, taskService.js
-│   │   └── server.js                # Server boot entry point
-│   ├── package.json
-│   └── .env.example
-│
-├── .gitignore                       # Master file exclusion rules
-├── README.md                        # Complete developer documentation
-└── render.yaml                      # Render Infrastructure-as-Code service deployment
-
-
 # ⚡ Setup & Installation
 
 ## Prerequisites
